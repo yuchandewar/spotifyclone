@@ -1,0 +1,31 @@
+.border{
+    border: 2px solid #c5baba;
+}
+.inverse{
+    filter: invert();
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* Scrollbar thumb color */
+    border-radius: 6px; /* Rounded corners */
+    border: 2px solid #000; /* Border for better visibility */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000; /* Scrollbar track color */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #333 #000; /* Thumb and track colors */
+}
+
+.invert{
+    filter: invert();
+}
