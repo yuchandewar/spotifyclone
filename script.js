@@ -4,7 +4,7 @@ let currentSong = new Audio();
 let songs;
 let currFolder;
 let fol="";
-let Apisong = ""
+let Apisong = "https://originalspotify.freewebhostmost.com/"
 
 // async function getsongs() {
 //     let a =await fetch("http://192.168.56.1:3000/Bhajan")
