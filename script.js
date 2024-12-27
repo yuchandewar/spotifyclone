@@ -4,7 +4,7 @@ let currentSong = new Audio();
 let songs;
 let currFolder;
 let fol="";
-let Apisong = "https://yuchandewar.github.io/spotifyclone/"
+let Apisong = ""
 
 // async function getsongs() {
 //     let a =await fetch("http://192.168.56.1:3000/Bhajan")
@@ -124,7 +124,7 @@ console.log("currentsong",currentSong)
 
 
 async function displayAlbums() {
-    let albums = await fetch(Apisong+"/songs/")
+    let albums = await fetch(Apisong+"songs/")
     let response = await albums.text();
     console.log(response)
     let div = document.createElement("div")
